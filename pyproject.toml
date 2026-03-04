@@ -1,0 +1,9 @@
+[project]
+name = "h1b-employer-compliance"
+version = "1.0.0"
+description = "H-1B Employer Compliance Tracker — cross-linked LCA, USCIS, and WHD enforcement data"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
